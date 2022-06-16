@@ -7,7 +7,7 @@
  { 
              $id=$_GET['del_id']; 
              
-             $sql="delete from posts where id='".$id."'"; 
+             $sql="delete from data where id='".$id."'"; 
              $result=mysqli_query($conn,$sql); 
              
              header('index.php'); 
